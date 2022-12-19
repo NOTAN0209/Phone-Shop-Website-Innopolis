@@ -1,0 +1,174 @@
+ /*nav-bar section*/
+.nav{
+  width: 100vw;
+  height: 25px;
+  width: 1500px;
+  gap: 4px; 
+  top:15px; 
+  left: 50px;
+  right: 50px;  
+  font-size: 16px;
+}
+  
+ 
+@media (max-width:1024px){
+ .nav{
+   width: 100vw;
+   height:25px;
+   top:35px;
+   z-index: 5;
+   left:15px;
+   font-size: 16px;
+ }
+}
+
+@media (max-width:360px){
+  .nav{
+    width: 340px;
+    height:25px;
+    top:15px;
+    z-index: 5;
+    left:10px;
+    font-size: 14px;
+  }
+ }
+
+.navRow{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    gap:4px;
+    left:0px;
+    font-size: 16px;
+}
+
+@media (max-width:1024px){
+    .navRow{
+      width: 1024px;
+      height:25px;
+      top:60px;
+      left:0px;
+      font-size: 16px;
+    }
+}
+
+
+@media (max-width:360px){
+  .navRow{
+    display: grid;
+    grid-template-columns: 150px 10px 150px 10px;
+    gap:5px;
+    width: 360px;
+    height:15px;
+    top:45px;
+    left:0px;
+    font-size: 14px;  
+  }
+}
+
+.navLink{
+  max-width: 900px;
+  height: 25px;  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;  
+  color: #008CF0;
+}
+
+@media (max-width:360px){
+  .navLink{
+    width: 150px;
+    height: 25px;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;  
+    color: #008CF0;
+  }
+}
+
+
+@media (max-width:360px){
+  .navLink:nth-of-type(2){
+    width: 150px;
+    height: 25px; 
+    top:2px;
+    left:100px; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;  
+    color: #008CF0;
+  }
+}
+
+.navLinkTrait{
+  width: 11px;
+  height: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;  
+  color: #000000;
+  left:2px;
+}
+
+@media (max-width:360px){
+  .navLinkTrait{
+    width: 10px;
+    height: 10px;
+    left:-10px;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;  
+  }
+}
+
+@media (max-width:360px){
+  .navLinkTrait:nth-of-type(1){
+    width: 10px;
+    height: 10px;
+    left:-65px; 
+    top:2px; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;  
+    color: #000000;
+  }
+}
+
+@media (max-width:360px){
+  .navLinkTrait:nth-of-type(2){
+    width: 10px;
+    height: 10px;
+    left:5px; 
+    top:3px; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;  
+    color: #000000;
+  }
+}
+
+@media (max-width:360px){
+  .navLinkTrait:nth-of-type(3){
+    width: 10px;
+    height: 10px;
+    left:0px; 
+    top:0px; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;  
+    color: #000000;
+  }
+}
+
+
+
+
+

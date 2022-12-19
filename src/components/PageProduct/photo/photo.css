@@ -1,0 +1,156 @@
+/*photo section*/
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1500px;
+    height: 387px;
+    padding: 0px;
+    top:50px; 
+    left: 50px;
+    right: 50px;   
+ }
+  
+ @media (max-width:1024px){
+    .photo{
+       gap: 3px;
+       width: 1024px;
+       height: 280px;
+       top:120px;
+       left: 15px;
+       right: 15px;   
+   }
+ }
+
+@media (max-width:360px){
+   .photo{
+      gap: 3px;
+      width: 1024px;
+      height: 280px;
+      top:90px;
+      left: 10px;
+      right: 10px;   
+  }
+}
+
+ 
+ .photoName{
+    min-width: 1200px;
+    font-style:bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    bottom:15px;
+ }
+ 
+ @media (max-width:1024px){
+    .photoName{
+       width: 100%;
+       height: 39px;
+       font-style: normal;
+       font-weight: 700;
+       font-size: 22px;
+       line-height: 39px;
+       top:-10px;
+   }
+ }
+
+
+ @media (max-width:360px){
+   .photoName{
+      width: 340px;
+      height: 39px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      top:2px;
+      left:5px;
+  }
+}
+ 
+ .photoRow{
+    width: 1400px;
+    height: 390px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:15px;
+    
+ }
+ 
+ @media (max-width:1024px){
+    .photoRow{
+       width: 1024px;
+       height: 280px;
+       gap:10px;
+   }
+ }
+
+@media (max-width:360px){
+   .photoRow{
+      top:30px;
+      width: 230px;
+      height: 270px;
+      width: 1024px;
+      height: 280px;
+      gap:5px;
+  }
+}
+
+   
+ .photoImgSmall{
+    width: 200px;
+    height: 387px;
+ }
+ 
+ @media (max-width:1024px){
+    .photoImgSmall{
+       width: 135px;
+       height: 287px;    
+   }
+ }
+
+ @media (max-width:360px){
+   .photoImgSmall:nth-child(3){
+     display: none;   
+  }
+}
+ 
+ .photoImgMedium{
+    width: 305px;
+    height: 387px;
+ }
+ 
+ @media (max-width:1024px){
+    .photoImgMedium{
+       width: 200px;
+       height: 287px;
+   }
+ }
+
+@media (max-width:360px){
+   .photoImgMedium:nth-child(5){
+    display: none;
+  }
+}
+  
+ .photoImgBig{
+    width: 360px;
+    height: 387px;
+  }
+  
+ @media (max-width:1024px){
+    .photoImgBig{
+       width: 260px;
+       height: 287px;
+   }
+ }
+
+   
+ @media (max-width:360px){
+   .photoImgBig{
+     display: none;
+  }
+}

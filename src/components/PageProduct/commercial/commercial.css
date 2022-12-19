@@ -1,0 +1,460 @@
+/*commercial*/
+
+.commercial {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 420px;
+    height:980px;
+    left: 80px;
+}
+
+@media (max-width:1024px){
+    .commercial{
+        width: 360px;
+        height: 1000px; 
+        top:20px; 
+        left:20px; 
+        gap: 30px;
+     
+   }
+}
+
+
+@media (max-width:360px){
+    .commercial{
+        width: 360px;
+        height: 300px;      
+        left:-20px;
+        top:-680px;
+        z-index: 1;
+    }
+}
+ 
+.commercialImportant {   
+    width: 420px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding:10px 20px;
+}
+
+
+@media (max-width:1024px){
+    .commercialImportant{
+
+        width: 340px;
+        height: 280px;
+        padding:20px 10px 70px 10px;
+   }
+}
+
+@media (max-width:360px){
+    .commercialImportant{
+        position: absolute;
+        width: 340px;
+        height: 300px;
+        padding:20px 10px 70px 10px;
+        left:15px;
+        top:0px;
+        z-index: 15;
+   }
+}
+
+.price { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 380px;
+    height: 110px;
+    padding: 0px;
+    gap: 2px;
+    background: #FFFFFF;
+}
+
+@media (max-width:1024px){
+    .price  {
+        width: 300px;
+        height: 90px;
+        left:10px;
+   }
+}
+
+.priceRow{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background:none;
+    height: 40px;
+    width: 380px;
+}
+
+.priceFirst {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #888888; 
+    background: #FFFFFF;
+    height: 30px;
+    width: 66px;
+    padding-top: 5px;
+}
+
+@media (max-width:1024px){
+    .priceFirst  {
+      top:-5px;
+   }
+}
+
+.priceSale {
+    position: absolute;
+    background: #F36223;
+    border-radius: 500px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    height: 24px;
+    width: 47px;
+    left: 70px;
+    color: #FFFFFF;
+    padding: 5px 35px 5px 10px;
+    gap: 6px;
+}
+
+@media (max-width:1024px){
+    .priceSale  {
+     top:-5px; 
+   }
+}
+
+.commercialHeartImg{
+    background-image: url(./heart.svg);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:5px;
+    left: 350px;
+    z-index: 6;
+}
+
+@media (max-width:1024px){
+    .commercialHeartImg  {
+        width: 25px;
+        height: 25px;
+   }
+}
+ 
+
+.commercialHeartImgChoise{
+    background-image: url(./heartChoise.svg);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    content: '';
+    width: 25px;
+    height: 25px;;
+    position: absolute;
+    top:5px;
+    left: 350px;
+    z-index: 6;
+}
+
+
+
+
+@media (max-width:1024px){
+    .commercialHeartImg  {
+     top:0px; 
+     left:280px;
+   }
+}
+
+
+
+@media (max-width:1024px){
+    .commercialPriceOldHeartImg{
+        width: 20px;
+        height: 20px;
+        left: 200px;
+   }
+}
+.priceNew {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    background: #FFFFFF;
+}
+
+@media (max-width:1024px){
+    .priceNew{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 15px;
+        width: 300px;
+        height: 80px;
+        top:10px;
+   }
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 380px;
+    height: 68px;
+    background: #FFFFFF;
+}
+
+@media (max-width:1024px){
+    .delivery  {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        width: 300px;
+        height: 40px;
+        left:10px;
+   }
+}
+ 
+.deliverySame {
+    background: #FFFFFF;
+}
+
+.deliveryCourier {
+    background: #FFFFFF;
+}
+
+
+.commercialButton { 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 380px;
+    height: 70px;
+    background: #F36223;
+    border-radius: 4px;
+    top:25px;
+    gap: 10px;
+}
+
+@media (max-width:1024px){
+    .commercialButton{
+        width: 300px;
+        height: 64px; 
+        top:60px; 
+        left:10px;  
+   }
+}
+ 
+.commercialButtonChoise { 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 380px;
+    height: 70px;
+    background: rgb(182, 131, 73);
+    border-radius: 4px;
+    top:25px;
+    gap: 10px;
+}
+
+@media (max-width:1024px){
+    .commercialButtonChoise {
+        width: 300px;
+        height: 64px; 
+        top:60px; 
+        left:10px;  
+   }
+}
+
+
+
+.commercialBasket { 
+    position: absolute; 
+    width: 190px;
+    height: 20px;
+    background:  #F36223;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    left:100px;
+    top:25px;
+}
+
+@media (max-width:1024px){
+    .commercialBasket{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;     
+        color: #FFFFFF;     
+        top:20px;
+        width: 190px;
+        height: 20px;
+        left:80px;
+   }
+}
+
+.commercialBasketChoise{
+     position: absolute; 
+     width: 380px;
+     height: 70px;
+    background: rgb(182, 131, 73);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    left:0px;
+    top:0px;
+}
+
+@media (max-width:1024px){
+    .commercialBasketChoise{
+    position: absolute; 
+    background: rgb(182, 131, 73);
+    width: 190px;
+    height: 20px;
+    background: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    left:75px;
+    top:-2px;
+   }
+}
+
+.commercialButton::before{
+    content: '';
+    fill:#EEEEEE;
+    background: rgb(182, 131, 73);
+    background-image: url(/public/img/logo/basket.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute; 
+    width: 25px;
+    height: 25px;
+    left: 60px;
+    top:24px;
+    z-index: 5;
+}
+
+
+@media (max-width:1024px){
+    .commercialButton::before{ 
+        width: 22px;
+        height: 22px;
+        top:22px;
+        left:50px;
+   }
+}
+
+/*advertisingr*/
+
+.advertising {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    width: 420px;
+    height: 342px;
+
+}
+
+@media (max-width:1024px){
+    .advertising {
+        width: 350px;
+        height: 637px;
+        right: 15px;
+        top:60px;
+        gap: 20px;
+    }
+}
+
+@media (max-width:360px){
+    .advertising {
+        display: none;
+    }
+}
+
+.advertisingTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+}
+
+@media (max-width:1024px){
+    .advertisingTitle {
+        width: 360px;
+        height: 10px;
+        left:16px;    
+    }
+}
+
+.advertisingIframe {
+    width: 420px;
+    height: 615px;
+}
+
+@media (max-width:1024px){
+    .advertisingIframe {
+        width: 300px;
+        height: 620px;
+        left: 16px;
+        right: 15px;
+    }
+}
+
+.iframeFirst {
+    width: 420px;
+    height: 300px;
+    background: #F0F0F0;
+    border: 1px dashed #888888;
+}
+
+
+@media (max-width:1024px){
+    .iframeFirst {
+        width: 350px;
+        height: 300px;
+    }
+}
+.iframeSecond {
+    width: 420px;
+    height: 300px;  
+    background: #F0F0F0;
+    border: 1px dashed #888888;
+    top:15px;
+}
+
+@media (max-width:1024px){
+    .iframeSecond {
+        width: 350px;
+        height: 300px;
+    }
+}
+

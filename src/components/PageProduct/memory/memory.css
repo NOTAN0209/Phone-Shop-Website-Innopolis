@@ -1,0 +1,81 @@
+/* memory section*/
+
+.memory{   
+    width: 100vw;
+    height: 73px;
+    top:40px;
+}
+
+@media (max-width:360px){
+    .memory{
+        width: 360px;
+        height: 73px;
+        top:60px;
+   }
+ }
+
+
+.memoryTitle{
+    width: 400px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+
+@media (max-width:360px){
+    .memoryTitle{
+        width: 400px;
+        height: 19px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 23px;
+        color: #000000;
+   }
+ }
+
+ 
+ .memoryRow{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 0px;
+    gap: 10px;   
+    width: 298px;
+    height: 60px;
+    left: 0px;
+    top:20px;
+}
+ 
+ .memoryGigabytes{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100px;
+    height: 40px;
+    padding: 10px 25px;
+    gap: 10px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    color: #000000;   
+}
+
+.memoryGigabytes:first-child:hover{
+    border: 2px solid #F36223;
+    border-radius: 4px;
+}
+
+
+ .memoryFont{
+    width: 52px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+

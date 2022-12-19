@@ -1,0 +1,388 @@
+/*reviews section*/
+.reviews {
+    position: absolute;
+    width: 900px;
+    height: 774px;
+    left: 0px;
+    top:1200px;
+}
+
+@media (max-width:1024px){
+    .reviews{
+        width: 650px;
+        height: 650px; 
+        top:1050px;
+        left:0px;
+        z-index: 7;
+    }
+}
+
+@media (max-width:360px){
+    .reviews{
+        width: 340px;
+        height: 70%; 
+        top:1200px;
+        left:0px;
+        right: 0px;
+        z-index: 7;
+    }
+}
+
+.reviewsRecall {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000; 
+}
+
+@media (max-width:360px){
+    .reviewsRecall{
+        position: absolute;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000; 
+    }
+}
+
+.reviewsQuantity {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #888888;
+    left: 120px;
+}
+
+
+@media (max-width:360px){
+    .reviewsQuantity{
+        position: absolute;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #888888;
+        left: 90px;
+        }
+}
+
+.reviewRow{
+    width: 880px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    top:50px;
+}
+
+@media (max-width:1024px){
+    .reviewRow{
+        width: 600px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        top:50px;
+    }
+}
+
+
+@media (max-width:360px){
+    .reviewRow{
+        width: 340px;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        left:0px;
+        top:250px;
+    }
+}
+
+@media (max-width:360px){
+    .reviewRow:nth-child(1){
+        width: 340px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        left:0px;
+        top:-250px;
+
+    }
+}
+
+@media (max-width:360px){
+    .reviewRow:nth-child(2){
+        width: 340px;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        left:0px;
+        top:50px;
+
+    }
+}
+
+@media (max-width:360px){
+    .reviewRow:nth-child(3){
+        width: 340px;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        left:0px;
+        top:220px;
+
+    }
+}
+
+.reviewImg {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+}
+
+@media (max-width:1024px){
+    .reviewImg{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width:360px){
+    .reviewImg{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.reviewColumn{
+    width: 1010px;
+    height: 70%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1024px){
+    .reviewColumn{
+        width: 600px;
+        height: 50%;
+        left:0px;
+        top:5px;
+    }
+}
+
+@media (max-width:360px){
+    .reviewColumn{
+        width: 360px;
+        height: 50%;
+        left:0px;
+        top:5px;
+    }
+}
+
+.reviewText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:10px 0px;
+    width:  880px;
+    height: 300px;
+}
+
+
+@media (max-width:1024px){
+    .reviewText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:10px 0px;
+    width:  480px;
+    height: 300px;
+}
+}
+
+
+.reviewName {
+    width: 400px;
+    height: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+@media (max-width:1024px){
+    .reviewName{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        width: 300px;
+        height: 10px;
+        
+    }
+}
+
+@media (max-width:360px){
+    .reviewName{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        width: 300px;
+        height: 10px;
+    }
+}
+
+.reviewStar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 150px;
+    height: 30px;
+}
+
+.reviewNameList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 750px;
+    height: 156px;
+    list-style-type:none;
+}
+
+@media (max-width:1024px){
+    .reviewNameList{
+        width: 600px;
+        height: 300px;
+        left:0px;
+    }
+}
+
+@media (max-width:360px){
+    .reviewNameList{
+        width: 340px;
+        height: 300px;
+        gap:10px;
+        left:-70px;
+    }
+}
+
+.reviewSeparator {
+    width: 700px;
+    height: 2px;
+    border: 2px solid #888888;
+    top:-300px;
+    left: 170px;
+    border-style: dotted;
+}
+
+@media (max-width:1024px){
+    .reviewSeparator{
+        width: 650px;
+        height: 1px;
+        left:15px;
+        top:-280px;
+    }
+}
+
+@media (max-width:360px){
+    .reviewSeparator{
+        width: 330px;
+        height: 1px;
+        left:0px;
+        top:125px;
+    }
+}
+
+.nameUse{
+    width: 730px;
+    height: 200px;
+}
+
+@media (max-width:1024px){
+    .nameUse{
+        width: 500px;
+        height: 20px;
+    }
+}
+
+@media (max-width:360px){
+    .nameUse{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        width: 340px;
+        height: 20%;
+        left:0px;
+        top:5px;
+    }
+}
+
+.nameAdvantages{
+    width: 730px;
+    height: 400px;
+
+}
+
+@media (max-width:1024px){
+    .nameAdvantages{
+        width: 600px;
+        height: 60px;
+}
+}
+
+@media (max-width:360px){
+    .nameAdvantages{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;    
+        width: 340px;
+        height:50%;
+        left:0px;
+        top:-5px;
+    }
+}
+
+.nameFlaw{
+    width: 730px;
+    height: 400px;
+}
+
+
+@media (max-width:1024px){
+    .nameFlaw{
+        width: 550px;
+        height: 60px;
+}
+}
+
+@media (max-width:360px){
+    .nameFlaw{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;     
+        width: 340px;
+        height: 50%;
+        left:0px;
+        top:-5px;
+    }
+}

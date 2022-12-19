@@ -1,0 +1,114 @@
+.main {
+  position: relative;
+  width:1500px;
+  height: 1600px;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width:1024px){
+  .main{
+    position: relative;
+    width:1024px;
+    height:1000px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+}
+
+@media (max-width:360px){
+  .main{
+    position: relative;
+    width:360px;
+    height:500px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+}
+
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top:500px;
+  padding: 0px;
+  gap: 20px;
+  width:1500px;
+  height: 1000px;
+  left:50px;
+  right: 50px;
+}
+
+@media (max-width:1024px){
+  .pageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    top:320px;
+    padding: 0px;
+    gap: 10px;
+    width:1024px;
+    height: 500px;
+    left:10px;
+    right: 10px;
+  }   
+}
+
+
+@media (max-width:360px){
+  .pageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    top:120px;
+    padding: 0px;
+    gap: 10px;
+    width:360px;
+    height: 1000px;
+    left:10px;
+    right: 10px;
+  }   
+}
+
+
+.pageText {
+  width: 453px;
+  height: 57px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  top:0px;
+}
+
+.pageLink {
+  width: 228px;
+  height: 19px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;  
+  color: #008CF0;
+}
+
+@media (max-width:360px){
+  .pageLink{
+    width: 228px;
+    height: 19px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;  
+    color: #008CF0;
+    top:50px;
+  }   
+}
+

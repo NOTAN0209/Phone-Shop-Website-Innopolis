@@ -1,0 +1,16 @@
+a{
+    color: #018ad2;
+    text-decoration: none;
+ }
+ 
+ a:active{
+    color:red;
+}
+
+@media (max-width:360px){
+   a{
+     width:150px;
+     height: 20px;
+    padding-top:2px;
+   }
+ }

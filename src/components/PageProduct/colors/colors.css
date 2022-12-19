@@ -1,0 +1,76 @@
+.colors{
+    width: 530px;
+    height: 114px;
+}
+
+ @media (max-width:1024px){
+    .colors{
+        width: 430px;
+        height: 114px;
+   }
+ }
+ 
+ @media (max-width:360px){
+    .colors{
+        width: 330px;
+        height: 130px;
+   }
+ }
+ 
+ .colorTitle{
+    width: 400px;
+    height: 19px;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+@media (max-width:1024px){
+    .colorTitle{
+    color: #000000;
+    font-size: 14px;
+   }
+ }
+
+.colorsRow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;   
+    width: 530px;
+    height: 80px;
+    border-radius: 4px;
+    top:20px;
+}
+
+@media (max-width:1024px){
+    .colorsRow{
+        width: 1024px;
+        height: 80px;
+   }
+ }
+ 
+ @media (max-width:360px){
+    .colorsRow{   
+        width: 340px;
+        height: 100px;
+        gap:5px;
+       display: grid;
+       grid-template-columns: repeat(5,60px);
+   }
+ }
+
+ .colorImg{
+
+ }
+ 
+  
+ @media (max-width:360px){
+    .colorImg{
+        width: 60px;
+        height: 60px;
+   }
+ }

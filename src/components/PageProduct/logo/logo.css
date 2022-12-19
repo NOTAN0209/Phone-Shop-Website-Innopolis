@@ -1,0 +1,324 @@
+/*logo section*/
+
+.logo{ 
+    width:1500px;
+    height: 80px;
+    top: 10px;
+    left: 50px;
+    right: 50px;
+ }
+
+ @media (max-width:1024px){
+   .logo{
+    position: fixed;
+     width: 1024px;
+     height: 40px;
+     z-index: 20;
+     padding-top: 15px;
+     margin: 0;
+     top:0;
+     left: 15px;
+     right: 15px; 
+   }
+  }
+
+
+ @media (max-width:360px){
+   .logo{
+    position: fixed;
+     width: 360px;
+     height: 55px;
+     z-index: 20;
+     padding-top: 8px;
+     margin: 0;
+     top:0;
+     left: 10px;
+     right: 10px; 
+   }
+  }
+
+  .logoRow{
+    width:1500px;
+    height: 80px;
+    top:0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+  
+  }
+
+  @media (max-width:1024px){
+    .logoRow{
+      width:1024px;
+      height: 80px;
+    }
+   }
+
+   @media (max-width:360px){
+    .logoRow{
+      width:360px;
+      height: 50px;
+    }
+   }
+
+ .logoIcon{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:18px;
+    left:0px;
+    z-index: 3;
+ }
+
+
+ @media (max-width:1024px){
+   .logoIcon{
+     width: 50px;
+     height: 50px;
+     top: 4px;
+     left:0px;
+   }
+  }
+
+ @media (max-width:360px){
+   .logoIcon{
+     width: 30px;
+     height: 30px;
+     top: 4px;
+     left:0px;
+   }
+  }
+
+  
+ @media (max-width:1024px){
+  .logoImg{
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left:0px;
+  }
+ }
+
+ @media (max-width:360px){
+  .logoImg{
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left:0px;
+  }
+ }
+
+.logoName{
+    position: absolute; 
+    width: 1351.5px;
+    height: 80px;
+    left:50px;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+ }
+
+@media (max-width:1024px){
+  .logoName{
+    width: 300px;
+    height: 60px;
+    left: 55px;
+    top: 6px;
+   }
+}
+
+@media (max-width:360px){
+  .logoName{
+    width: 300px;
+    height: 40px;
+    left: 45px;
+    top: 6px;
+  }
+}
+ 
+.logoText{
+  top:0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: #FF5722;
+}
+
+@media (max-width:360px){
+  .logoText{
+    top:-12px;
+    left:-15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    color: #FF5722;
+}
+}
+
+.logoTextCont{
+  top:0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color:#000000;
+}
+
+@media (max-width:360px){
+  .logoTextCont{
+    top:-12px;
+    left:-15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    color:#000000;
+}
+}
+/*heart*/
+.logoHeart {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right:170px;
+  top: 30px;
+}
+
+@media (max-width:1024px){
+  .logoHeart {
+    width: 40px;
+    height: 40px;
+    right:120px;
+    top: 10px;
+  }
+ }
+
+ @media (max-width:360px){
+  .logoHeart {
+    width: 30px;
+    height: 30px;
+    right:75px;
+    top: 10px;
+  }
+ }
+
+ .logoHeartNumberHidden{
+  display:none;
+}
+
+.logoHeartNumber {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color:#F36223;
+  color:#f9f2f2;
+  border-radius: 50px;
+  padding: 1px 5px;
+  right:-4px;
+  top: -4px;
+  z-index: 6;
+}
+
+
+.logoHeartPicture {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width:1024px){
+  .logoHeartPicture {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+@media (max-width:360px){
+  .logoHeartPicture {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+ /*basket*/
+
+ .logoBasket {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right:100px;
+  top: 30px;
+}
+
+@media (max-width:1024px){
+  .logoBasket{
+    position:absolute;
+    top:10px;
+    right:55px;
+  }
+ }
+
+@media (max-width:360px){
+  .logoBasket{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top:10px;
+    right:35px;
+  }
+ }
+
+.logoBasketPicture {
+  width: 40px;
+  height: 40px;
+  top:0px;
+  position: absolute;
+}
+
+@media (max-width:1024px){
+  .logoBasketPicture{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+ 
+  }
+}
+
+@media (max-width:360px){
+  .logoBasketPicture{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+ 
+  }
+}
+
+.logoBasketNumberHidden{
+  display: none;
+}
+
+.logoBasketNumber {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50px;
+  padding: 1px 5px;
+  background: #FF5722;
+  color:#f9f2f2;
+  left:25px;
+  top:-3px;
+  z-index: 6;
+}
+
+
+@media (max-width:1024px){
+  .logoBasketNumber{
+    width: 20px;
+    height: 20px;
+  }
+ }
